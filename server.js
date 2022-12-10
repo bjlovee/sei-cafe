@@ -17,7 +17,7 @@ app.use('/api', routes) <====== Finish code once you got it
 */
 
 app.get('/api/test', (req, res) => {
-    res.json({brandon: 'test'})
+    res.json({'eureka': 'you have found it'})
 })
 
 app.get('*', (req, res) => {
